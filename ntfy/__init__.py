@@ -11,7 +11,7 @@ __version__ = '2.2.0'
 
 notifiers = dict.fromkeys(['default', 'darwin', 'linux', 'notifico',
                            'pushbullet', 'pushjet', 'pushover',
-                           'simplepush', 'telegram', 'win32', 'xmpp'])
+                           'simplepush', 'telegram', 'win32', 'xmpp', 'mailx'])
 
 _user_home = path.expanduser('~')
 _cwd = getcwd()
